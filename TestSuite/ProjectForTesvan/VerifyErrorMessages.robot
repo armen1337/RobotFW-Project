@@ -22,7 +22,7 @@ ${error_msg_field}  //div[@class="error-message"]
 
 
 *** Test Cases ***
-Login with username and password  ${username}  ${password}  ${error_msg}
+Login with username ${username} and password ${password}  ${username}  ${password}  ${error_msg}
 
 
 *** Keywords ***
