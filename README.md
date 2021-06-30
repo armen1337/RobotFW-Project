@@ -5,7 +5,6 @@
 
 ## Set up the prerequisites
 
-<div style="background-color: #303030; padding: 20px; border-radius: 10px;">
 
 ### Install dependencies
 <br>
@@ -30,14 +29,14 @@ python3 -m pip install -r requirements.txt
 <h3><i> Geckodriver </i></h3>
 
 #### For having up-and-working geckodriver you must allocate your geckodriver.exe file in Mozilla's root folder.
-</div>
+
 
 <hr>
 
 
 
 ## How to run the tests
-<div style="background-color: #303030; padding: 20px; border-radius: 10px;">
+
 
 <b> Note: </b><i> This manual is written from the perspective that you are in the root folder.</i>
 
@@ -50,4 +49,3 @@ robot -d {path_for_results} -v browser:{chrome|ff} {path_to_suite_or_file}
 ```
 robot -d Results/eBay -v browser:chrome TestSuite/eBay/VerifyResultsCount.robot
 ```
-</div>
