@@ -1,4 +1,4 @@
-# Robot Framework projects for Tesvan
+# Robot Framework projects
 
 <b> Python Version: </b><i>3.9.2</i>
 
